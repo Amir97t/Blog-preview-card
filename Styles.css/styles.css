@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+  }
+
+/* Card*/
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 7px 7px hsl(0, 0%, 7%);
+  height: 30rem;
+  margin: 13rem auto;
+  width: 20rem;
+}
+
+/* Image */
+.img-primary {
+  border-radius: 25px;
+  padding: 20px 15px;
+  width: 18rem;
+}
+
+/* Badge*/
+.badge {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+  margin-left: 15px;
+  padding: 0.2rem;
+  white-space: nowrap;
+}
+/* Paragraph */
+p {
+  margin-left: 15px;
+  font-size: 15px;
+}
+.paragraph {
+  font-weight: 300;
+  opacity: 70%;
+}
+/* Heading */
+h2 {
+  cursor: pointer;
+  font-family: "Figtree";
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 15px;
+}
+h2:hover {
+  color: hsl(47, 88%, 63%);
+}
+/* Footer */
+.info {
+  margin-left: 10px;
+}
+
+.info__img {
+  width: 50px;
+}
+
+.footer__info {
+  margin: -2.5rem 3.5rem;
+  font-weight: 800;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    height: 30rem;
+    margin: 13rem auto;
+    width: 23rem;
+  }
+  .img-primary {
+    border-radius: 30px;
+    padding: 21px 25px;
+    width: 20rem;
+  }
+}
